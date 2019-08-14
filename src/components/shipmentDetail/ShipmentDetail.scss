@@ -1,0 +1,17 @@
+.Card {
+  .Card-Content {
+    .Card-Content__Id {
+      text-align: right;
+    }
+    .Card-Content__Back {
+      i {
+        font-size: 2.2em;
+        cursor: pointer;
+      }
+    }
+  }
+  .Card-Action {
+    float: right;
+    padding: 2em;
+  }
+}

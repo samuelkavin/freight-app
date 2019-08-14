@@ -1,0 +1,28 @@
+.Card {
+  .Card-Content {
+    .Card-Content__SearchBar {
+      display: flex;
+      .Card-Content__SearchBar--status {
+        margin-right: 3em;
+        :first-child {
+          width: 1em;
+          height: 1em;
+          background: #8f8f8f;
+          border-radius: 50%;
+          display: inline-block;
+          margin-top: 4px;
+          margin-right: 0.4em;
+        }
+        .New {
+          background: #3f51b5;
+        }
+        .Completed {
+          background: #f50057;
+        }
+        .Active {
+          background: #319415;
+        }
+      }
+    }
+  }
+}

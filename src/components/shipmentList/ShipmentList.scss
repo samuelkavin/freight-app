@@ -1,0 +1,44 @@
+.Card {
+  margin: 2em;
+  .Card-Content {
+    .Card-Content__Header {
+      display: flex;
+      justify-content: space-between;
+      .Card-Content__Header--Id {
+        color: #8f8f8f;
+        font-weight: 700;
+      }
+      .Card-Content__Header--Title {
+        margin-top: 0;
+        margin-bottom: 0.2em;
+        .Card-Content__Header--Status {
+          width: 1em;
+          height: 1em;
+          background: red;
+          border-radius: 50%;
+          display: inline-block;
+          margin-top: 4px;
+          margin-right: 0.4em;
+        }
+        .NEW {
+          background: #3f51b5;
+        }
+        .COMPLETED {
+          background: #f50057;
+        }
+        .ACTIVE {
+          background: #319415;
+        }
+      }
+    }
+    .Card-Content__Location {
+      color: #8a8a8a;
+      font-style: italic;
+      .Card-Content__Location--to {
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+        font-weight: 700;
+      }
+    }
+  }
+}
